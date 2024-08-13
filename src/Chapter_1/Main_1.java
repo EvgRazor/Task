@@ -1,12 +1,11 @@
 package Chapter_1;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Main_1 {
 
     public static void main(String[] args) {
 

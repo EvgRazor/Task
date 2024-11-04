@@ -53,12 +53,18 @@ public class Main_100 {
         Main_100_User [] main100UsersArr = {main100User_1, main100User_2, main100User_3, main100User_4};
 
 
-        // 1 - способ Нам надо найти напрмер  new Main_100_User(45, "Аким");. Воспользуемся  equals()
+        // 1 - способ Нам надо найти напрмер "Аким";. Например через equals()
         for (Main_100_User main100User : main100UsersArr) {
-            if (main100User.getName().equals("Аким")) {
+            if (main100User.getName().equals("Аким") && main100User.getAge() == 45) {
                 System.out.println("Есть такое имя");
             }
         }
+
+        boolean name = Arrays.stream(main100UsersArr).anyMatch(main100User -> main100User.getName().equals("Аким"));
+        System.out.println(name);
+
+
+
 
     }
 

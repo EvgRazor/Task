@@ -12,8 +12,6 @@ public class TwoSum_1 {
 
     public static void main(String[] args) {
 
-        //int[] arrTest = {2,5,5,11};
-        //int pr = 10;
 
         int[] arrTest = {0,4,3,0};
         int pr = 0;
@@ -29,7 +27,6 @@ public class TwoSum_1 {
 
 
         for (int i = 0; i < nums.length-1; i++) {
-            //if (nums[i] == target) return test = new int[]{i};
 
             for (int x = i+1; x < nums.length; x++) {
                 if (nums[i] + nums[x] == target){

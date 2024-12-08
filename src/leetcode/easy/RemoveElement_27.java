@@ -28,10 +28,8 @@ public class RemoveElement_27 {
            }
        }
 
-        System.out.println(Arrays.toString(nums));
-        System.out.println(rezult);
 
-
+         return rezult;
     }
 
 }

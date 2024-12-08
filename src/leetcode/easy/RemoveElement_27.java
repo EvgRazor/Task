@@ -29,7 +29,7 @@ public class RemoveElement_27 {
        }
 
 
-        return rezult;
+         return rezult;
     }
 
 }

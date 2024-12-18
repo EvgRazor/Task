@@ -26,8 +26,9 @@ public class MergeSortedArray_88 {
             }
         }
 
-        nums1 = Arrays.copyOf(arr, massLength);
-
+        nums1 =  arr;
+        Arrays.sort(nums1);
+        System.out.println(Arrays.toString(nums1));
 
     }
 

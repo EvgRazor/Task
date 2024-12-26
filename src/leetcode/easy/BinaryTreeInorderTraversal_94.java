@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class BinaryTreeInorderTraversal_94 {
-
+    /*
     public static void main(String[] args) {
         List<Integer> result = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -25,5 +25,5 @@ public class BinaryTreeInorderTraversal_94 {
 
         return result; // Возвращаем список значений
     }
-
+    */
 }
